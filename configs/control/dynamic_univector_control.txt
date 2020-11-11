@@ -1,0 +1,12 @@
+angleFeedbackGain:100
+derivativeGain:400
+rateFeedbackGain:0.0
+fullSpeedAngleThreshold:0.085
+completeStopAngleThreshold:1.57
+maxLinearSpeed:5
+maxLinearBoost:0
+boostGain:0
+integrationStep:2
+_angleFeedbackGain:75
+_fullSpeedAngleThreshold:0.52
+_maxLinearSpeed:12.5

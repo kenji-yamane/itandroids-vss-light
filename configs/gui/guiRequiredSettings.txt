@@ -1,0 +1,44 @@
+ImageWidth: 656
+ImageHeight: 516
+DefaultImage: resources/images/logo.png
+
+ShowCamera: Enabled
+Camera: External
+
+ImgCheckBox: Enabled
+CalibCheckBox: Enabled
+FieldCheckBox: Enabled
+PlayerCheckBox: Enabled
+EnemyCheckBox: Disabled
+SpeedCheckBox: Enabled
+StatCheckBox: Enabled
+RoleCheckBox: Enabled
+TrajeCheckBox: Enabled
+Str1CheckBox: Enabled
+Str2CheckBox: Enabled
+ContCheckBox: Enabled
+InfraCheckBox: Disabled
+
+BehaviorMode: Enabled
+GameMode: Enabled
+SplitMode: Enabled
+FourMode: Enabled
+MonitorMode: Enabled
+SpectatorMode: Disabled
+DebugMode: Enabled
+FullMode: Enabled
+ParamsMode: Enabled
+CalibrationMode: Disabled
+
+PlayButton: Enabled
+StopButton: Enabled
+FreezeButton: Disabled
+PauseButton: Disabled
+InvertButton: Enabled
+ColorButton: Enabled
+RobotDropDown: Enabled
+DynamicPositioningDropDown: Enabled
+FunDropDown: Enabled
+StrategyDropDown: Enabled
+
+

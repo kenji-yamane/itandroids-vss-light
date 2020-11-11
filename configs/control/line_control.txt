@@ -1,0 +1,8 @@
+kP:4.3175
+kD:0.28875
+kPhi:8.6
+kDAngle:8.6
+kH:3
+kDLine:0
+maxWheelOmega:42
+accelerationIntegrationStep:1.26

@@ -1,0 +1,15 @@
+To add a new delaunay calibration
+
+1) Go to itandroids-vss/configs/delaunay_positioning and create a new file .conf
+(Obs: the easier way is to just copy one of the existing files)
+
+Ex: test.conf
+0 0
+
+2) Go to itandroids-vss/source/core/trajectory_planner/DelaunayFormationType.h
+	-In the enum 'DelaunayFormationType' add a new entry (for convention the same name as your config file)
+		Ex: TEST,
+	-In the 'string toString(DELAUNAY_FORMATION_TYPE)' function, add a new 'if' relating the enum with the name of your file
+		Ex: if(type == TEST) return std::string("test.conf");
+
+3) Run the tool delaunay_calibration...

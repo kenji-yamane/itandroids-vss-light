@@ -1,0 +1,8 @@
+maxWheelOmega:72
+accelerationIntegrationStep:40
+ksi:0.7
+wn:4.7
+kx:4.3
+minLinearSpeedForKh:0.1
+maxAngleReference:80
+kpAngle:1

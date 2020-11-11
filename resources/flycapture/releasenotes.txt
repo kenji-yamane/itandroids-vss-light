@@ -1,0 +1,12 @@
+================================================================================
+== Copyright 2016 Point Grey Research, Inc. All Rights Reserved.              ==
+==                                                                            ==
+== FlyCapture2 SDK Release Notes                                              ==
+==                                                                            ==
+================================================================================
+
+Latest release notes and erratas can be found online under software downloads section:
+http://www.ptgrey.com/support/downloads
+
+We welcome your bug reports, questions, and comments:
+http://www.ptgrey.com/contact/

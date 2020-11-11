@@ -1,0 +1,3 @@
+angleFeedbackGain:150
+derivativeGain:200
+integrativeGain:0

@@ -1,0 +1,1 @@
+          LeftGoals  RightGoals  LeftFouls  RightFouls  TimeBallOnLeftSide  TimeBallOnRightSide
