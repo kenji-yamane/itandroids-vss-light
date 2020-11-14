@@ -1,1 +1,1 @@
-goalKickAlly.conf
+../configs/predefined_positions/3v3/univector-extreme-attackers-optimization.conf
