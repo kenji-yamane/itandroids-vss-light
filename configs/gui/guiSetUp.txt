@@ -1,10 +1,10 @@
-Image: 0
+Image: 1
 Calibration: 0
 Field: 1
 Player: 1
 Speed: 0
 State: 0
-Role: 1
+Role: 0
 Strategy1: 0
-Strategy2: 1
+Strategy2: 0
 Control: 0
