@@ -1,3 +1,5 @@
             LeftGoals  RightGoals  LeftFouls  RightFouls  BallOnLeftSide  BallOnRightSide
-Match   1:      0          0           3          3           45.32%          54.68%     
+Match   1:      0          0           0          0           69.84%          30.16%     
+Match   2:      0          0           0          0             0%             100%      
+Match   3:      0          0           0          0             0%             100%      
 

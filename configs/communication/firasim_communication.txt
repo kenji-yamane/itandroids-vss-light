@@ -2,7 +2,7 @@ vision_address:224.0.0.1
 vision_port:10002
 local_address:127.0.0.1
 command_port:20011
-referee_address:224.0.0.1
+referee_address:224.5.23.2
 ref_placement_port:10004
 ref_command_port:10003
 

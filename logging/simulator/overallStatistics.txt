@@ -1,34 +1,43 @@
-# Number of Matches: 2
+# Number of Matches: 4
 
 -------  Goals -------
 >> Left Team <<
-# Total number: 0
+# Average number: 0
+# Standard deviation: 0
 >> Right Team <<
-# Total number: 0
+# Average number: 0
+# Standard deviation: 0
 
 ------- Penalty Fouls -------
 >> Left Team <<
-# Total number: 0
+# Average number: 0
+# Standard deviation: 0
 >> Right Team <<
-# Total number: 0
+# Average number: 0
+# Standard deviation: 0
 
 ------- Attack Fouls -------
 >> Left Team <<
-# Total number: 3
+# Average number: 0
+# Standard deviation: 0
 >> Right Team <<
-# Total number: 3
+# Average number: 0
+# Standard deviation: 0
 
 ------- Ball Possession -------
 >> Left Team <<
-# Relative number: 54.6802
+# Average percentage: 76.7194
+# Standard deviation: 40.3233
 >> Right Team <<
-# Relative number: 45.3198
+# Average percentage: 23.2806
+# Standard deviation: 40.3233
 
 ------- Free Balls -------
-# Total number: 0
+# Average number: 0
+# Standard deviation: 0
 
 
 # Left team wins: 0
 # Right team wins: 0
-# Ties: 1
+# Ties: 3
 
