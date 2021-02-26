@@ -1,1 +1,1 @@
-defaultAlly.conf
+freeBall2.conf
