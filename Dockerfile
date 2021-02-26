@@ -83,18 +83,6 @@ RUN ls -la /configs/*
 COPY binaries/ /binaries/
 RUN ls -la /binaries/*
 
-WORKDIR /resources/flycapture/
-
-RUN sudo dpkg -i libflycapture-2* \
-    && sudo dpkg -i libflycapturegui-2* \
-    && sudo dpkg -i libflycapture-c-2* \
-    && sudo dpkg -i libflycapturegui-c-2* \
-    && sudo dpkg -i libmultisync-2* \
-    && sudo dpkg -i libmultisync-c-2* \
-    && sudo dpkg -i flycap-2* \
-    && sudo dpkg -i flycapture-doc-2* \
-    && sudo dpkg -i updatorgui* 
-
 WORKDIR /binaries/
 
 # Run the specified command within the container.
