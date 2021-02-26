@@ -65,18 +65,6 @@ RUN ./configure && make -j 4 \
 
 WORKDIR /
 
-# OpenCV Package
-RUN sudo wget -c -N https://github.com/Itseez/opencv/archive/3.4.2.zip --no-check-certificate -O opencv-3.4.2.zip \
-    && unzip opencv-3.4.2.zip
-
-WORKDIR /opencv-3.4.2/build/
-
-# Make build OpenCV
-RUN cmake -G "Unix Makefiles" -D CMAKE_CXX_COMPILER=/usr/bin/g++ CMAKE_C_COMPILER=/usr/bin/gcc -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=OFF -D WITH_OPENGL=ON -D BUILD_FAT_JAVA_LIB=ON -D INSTALL_TO_MANGLED_PATHS=ON -D INSTALL_CREATE_DISTRIB=ON -D INSTALL_TESTS=ON -D ENABLE_FAST_MATH=ON -D WITH_IMAGEIO=ON -D BUILD_SHARED_LIBS=OFF -D WITH_GSTREAMER=ON .. \
-    && make all -j 4 && make install
-
-WORKDIR /
-
 # Kdtree package
 RUN git config --global http.sslVerify false && sudo git clone https://github.com/jtsiomb/kdtree.git
 
