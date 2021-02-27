@@ -2,12 +2,6 @@ Invert: 0
 UniformColor: blue
 Robot: 0
 Strategy: 0
-QuantWidgets: 4
+QuantWidgets: 1
 
 Widget: GameWidget
-
-Widget: BehaviorWidget
-
-Widget: BehaviorWidget
-
-Widget: BehaviorWidget
