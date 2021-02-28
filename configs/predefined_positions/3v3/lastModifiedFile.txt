@@ -1,1 +1,1 @@
-freeBall3.conf
+defaultAlly.conf

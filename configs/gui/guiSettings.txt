@@ -1,6 +1,6 @@
 Invert: 0
 UniformColor: blue
-Robot: 0
+Robot: 1
 Strategy: 0
 QuantWidgets: 1
 

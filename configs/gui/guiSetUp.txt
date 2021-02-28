@@ -2,7 +2,7 @@ Image: 0
 Calibration: 0
 Field: 1
 Player: 1
-Speed: 0
+Speed: 1
 State: 0
 Role: 1
 Strategy1: 0
